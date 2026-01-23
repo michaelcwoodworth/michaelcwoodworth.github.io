@@ -1,1 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #f0f0f0;
+}
 
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.gallery {
+  display: grid;
+  gap: 12px;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.projects, .archive {
+  padding: 2rem 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
