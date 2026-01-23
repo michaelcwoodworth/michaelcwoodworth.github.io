@@ -2,51 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Michael Clay</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michael Clay Art</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
-  <main class="page">
+<header class="hero">
+  <h1>Michael<br>Clay<br>Art.com</h1>
 
-    <!-- LEFT COLUMN TEXT -->
-    <section class="text-stack">
-      <div class="block">
-        <h1>GALLERY</h1>
-        <p>Feature description.</p>
+  <!-- ICON NAV -->
+  <nav class="icon-nav">
+    <a href="gallery.html" title="Gallery">🖼️</a>
+    <a href="projects.html" title="Projects">📄</a>
+    <a href="archive.html" title="Archive">🗂️</a>
+    <a href="shop.html" title="Shop">🛒</a>
+    <a href="about.html" title="About">ℹ️</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- GALLERY SECTION -->
+  <section class="section">
+    <div class="section-text">
+      <h2>GALLERY</h2>
+      <p>Feature description.</p>
+    </div>
+
+    <div class="carousel" data-carousel>
+      <button class="arrow left" data-left>‹</button>
+      <div class="track">
+        <a href="gallery.html"><img src="images/gallery1.jpg"></a>
+        <a href="gallery.html"><img src="images/gallery2.jpg"></a>
+        <a href="gallery.html"><img src="images/gallery3.jpg"></a>
       </div>
+      <button class="arrow right" data-right>›</button>
+    </div>
+  </section>
 
-      <div class="block">
-        <h1>PROJECTS</h1>
-        <p>Feature description.</p>
+  <!-- PROJECTS SECTION -->
+  <section class="section">
+    <div class="section-text">
+      <h2>PROJECTS</h2>
+      <p>Feature description.</p>
+    </div>
+
+    <div class="carousel" data-carousel>
+      <button class="arrow left" data-left>‹</button>
+      <div class="track">
+        <a href="projects.html"><img src="images/project1.jpg"></a>
+        <a href="projects.html"><img src="images/project2.jpg"></a>
+        <a href="projects.html"><img src="images/project3.jpg"></a>
       </div>
+      <button class="arrow right" data-right>›</button>
+    </div>
+  </section>
 
-      <div class="block">
-        <h1>ARCHIVE</h1>
-      </div>
-    </section>
+</main>
 
-    <!-- GALLERY GRID -->
-    <section class="gallery">
-      <img src="images/01.jpg">
-      <img src="images/02.jpg">
-      <img src="images/03.jpg">
-      <img src="images/04.jpg">
-      <img src="images/05.jpg">
-      <img src="images/06.jpg">
-    </section>
-
-    <!-- DIVIDER -->
-    <div class="divider"></div>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <p>Michael Clay<br>Art.com</p>
-    </footer>
-
-  </main>
-
+<script src="script.js"></script>
 </body>
 </html>
